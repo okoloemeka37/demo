@@ -1,0 +1,484 @@
+*{
+    margin:0%;
+    padding: 0%;
+}
+
+.gr{
+    font-family: "Squartiqa4F", sans-serif;   
+}
+
+
+/* button style*/
+
+.bg-gold{
+    background: linear-gradient(92.39deg, rgb(224, 187, 85) -2.5%, rgb(237, 232, 123) 18.24%, rgb(206, 147, 39) 38.98%, rgb(215, 170, 62) 56.43%, rgb(240, 233, 124) 69.87%, rgb(233, 214, 107) 80.46%, rgb(207, 149, 38) 101.2%);
+  color:rgb(38, 6, 79);
+}
+.but{
+    text-transform: uppercase;
+    font-weight: 400;
+
+clip-path: polygon(0px 6px, 6px 0px, calc(100% - 6px) 0px, 100% 6px, 100% calc(100% - 6px), calc(100% - 6px) 100%, 6px 100%, 0px calc(100% - 6px));
+padding:10px 50px;
+transition: all 1s;
+letter-spacing: .5px;
+font-family: "Squartiqa4F", sans-serif;
+
+}
+
+.bg-gold:hover{
+    
+    background: linear-gradient(rgb(51, 6, 110),rgb(51, 6, 110));
+
+      color:rgb(224, 187, 85);
+}
+
+.bg-blue{
+    
+    
+    color: #fff;
+    border: 0;
+    background: linear-gradient(76.26deg, #A15FCB 11.58%, #7F69E7 37.95%, #6A73F4 48%, #6378F7 59.3%, #598AF3 70.6%, #62A7DE 84.41%, #76C0C3 103.25%);
+}
+.bg-green{
+    font-size: 16px;
+   background-color: lightgreen; 
+
+   
+}
+/* back styles*/
+
+.hold{
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-image: url("/images/try.jpg");
+    width:97%;
+    height: fit-content;
+    padding-bottom:50px ;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    clip-path: polygon(0px 6px, 6px 0px, calc(100% - 6px) 0px, 100% 6px, 100% calc(100% - 6px), calc(100% - 6px) 100%, 6px 100%, 0px calc(100% - 6px));
+display: flex;
+}
+.hold .left{
+    padding-top: 7%;
+    padding-left: 3%;
+     color: white;
+}
+
+.one{
+    font-size: 64px;
+    line-height: 1.18;
+    letter-spacing: 0.16rem;
+   
+    font-family: "Squartiqa4F", sans-serif;
+
+}
+.one span{
+    font-family: "Squartiqa4F", sans-serif;
+    -webkit-text-fill-color: rgba(0, 0, 0, 0);
+    background: linear-gradient(76.26deg, rgb(161, 95, 203) 11.58%, rgb(127, 105, 231) 37.95%, rgb(106, 115, 244) 48%, rgb(99, 120, 247) 59.3%, rgb(89, 138, 243) 70.6%, rgb(98, 167, 222) 84.41%, rgb(118, 192, 195) 103.25%) text;
+}
+.tense{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.35;
+    letter-spacing: 0.42rem;
+    text-transform: uppercase;
+    margin-top: 5%;
+}
+.wt{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    
+}
+.wt .tx{
+    margin-left: 30px;
+    font-size: 22px;
+    line-height: 1.18;
+    letter-spacing: 0.16rem;
+   
+    font-family: "Squartiqa4F", sans-serif;
+}
+
+.icsp{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    backdrop-filter: blur(10px);
+    clip-path: polygon(0px 8px, 8px 0px, calc(100% - 8px) 0px, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 0px calc(100% - 8px));
+    gap: 16px;
+    background: linear-gradient(76.26deg, rgba(161, 95, 203, 0.25) 11.58%, rgba(127, 105, 231, 0.25) 37.95%, rgba(106, 115, 244, 0.25) 48%, rgba(99, 120, 247, 0.25) 59.3%, rgba(89, 138, 243, 0.25) 70.6%, rgba(98, 167, 222, 0.25) 84.41%, rgba(118, 192, 195, 0.25) 103.25%);
+    padding: 16px 24px;   
+    margin-top: 7%;
+    margin-bottom: 7%;
+    margin-left: 20px;
+}
+.icsp i{
+    background: linear-gradient(76.26deg, rgb(161, 95, 203) 11.58%, rgb(127, 105, 231) 37.95%, rgb(106, 115, 244) 48%, rgb(99, 120, 247) 59.3%, rgb(89, 138, 243) 70.6%, rgb(98, 167, 222) 84.41%, rgb(118, 192, 195) 103.25%) text;
+    -webkit-text-fill-color: rgba(0, 0, 0, 0);
+   font-size: 25px;
+}
+
+.rf{
+    display: flex;
+
+}
+.rf img{
+    display: block;
+    width: 14%;
+    margin-right: 10px;
+}
+
+.cert{
+    margin-top: 20px;
+    width:20%;
+}
+
+.right{
+    backdrop-filter: blur(10px);
+    clip-path: polygon(0px 8px, 8px 0px, calc(100% - 8px) 0px, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 0px calc(100% - 8px));
+    gap: 16px;
+    background: linear-gradient(76.26deg, rgba(161, 95, 203, 0.25) 11.58%, rgba(127, 105, 231, 0.25) 37.95%, rgba(106, 115, 244, 0.25) 48%, rgba(99, 120, 247, 0.25) 59.3%, rgba(89, 138, 243, 0.25) 70.6%, rgba(98, 167, 222, 0.25) 84.41%, rgba(118, 192, 195, 0.25) 103.25%);
+   height: 100vh;
+width: 40%;
+margin-top: 4%;
+margin-right: 7%;
+padding: 30px;
+text-align: center;
+}
+.io{
+    color: white;
+    margin-left: 30px;
+    font-size: 22px;
+    line-height: 1.18;
+    letter-spacing: 0.16rem;
+   text-align: center;
+    font-family: "Squartiqa4F", sans-serif;
+    margin-top: 20px;
+}
+
+.lo ,.rd{
+    margin-left: 30px;
+    font-size: 22px;
+    line-height: 1.18;
+    letter-spacing: 0.16rem;
+   
+    font-family: "Squartiqa4F", sans-serif; 
+background: linear-gradient(92.39deg, #E0BB55 -2.5%, #EDE87B 18.24%, #CE9327 38.98%, #D7AA3E 56.43%, #F0E97C 69.87%, #E9D66B 80.46%, #CF9526 101.2%);
+-webkit-text-fill-color: rgba(0, 0, 0, 0);
+    background-clip: text;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+.lk{
+    display: flex;
+    width: 100%;
+    align-items: center;
+     margin-top: 30px;
+     width: 100%;
+     color: silver;
+}
+.lk .li{
+   border-bottom: 1px solid silver;
+   width: 34%;
+  
+}
+.hl{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    letter-spacing: .02rem;  
+
+}
+.in{
+    backdrop-filter: blur(10px);
+    clip-path: polygon(0px 8px, 8px 0px, calc(100% - 8px) 0px, 100% 8px, 100% calc(100% - 8px), calc(100% - 8px) 100%, 8px 100%, 0px calc(100% - 8px));
+ padding: 20px;  
+}
+.inl{
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: .10625rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color:white;
+    margin-bottom: 10px;
+}
+.fg{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.fg img{
+    width: 40%;
+}
+.fg a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 8px;
+   
+    
+}
+.bb{
+    border-bottom: 1px solid rgba(221, 221, 221, 0.199);
+}
+.ex{
+     border-right: 1px solid  rgba(221, 221, 221, 0.199);
+}
+
+.hid{
+    padding:10px 6px;
+    background-color: unset;
+    border: none;
+    outline: none; 
+    font-family: "Space Grotesk", sans-serif;
+color: silver;
+}
+.hid::placeholder{
+    font-family: "Squartiqa4F", sans-serif;
+    color: silver;
+    font-weight: 400;
+word-spacing: 5px;
+letter-spacing: 3px;
+}
+
+.ls{
+    display:flex;
+    justify-content: space-between;
+  margin-left: 30px;
+}
+.ls p{
+      font-size: 12px;
+    background: linear-gradient(92.39deg, #E0BB55 -2.5%, #EDE87B 18.24%, #CE9327 38.98%, #D7AA3E 56.43%, #F0E97C 69.87%, #E9D66B 80.46%, #CF9526 101.2%);
+    -webkit-text-fill-color: rgba(0, 0, 0, 0);
+background-clip: text;
+
+} 
+
+
+/* game.jsx styles*/
+
+.lg{
+    display: flex;
+    margin-left: 5%;
+    padding-top: 5%;
+   margin-right: 5%;
+}
+
+
+
+.tb{
+    background-image: url("/images/lop.svg");
+    width: 100%;
+    background-size: 100% 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+  
+    padding-left: 5%;
+}
+
+.dc{
+    font-size: 40px;
+    line-height: 1.25;
+    font-family: "Squartiqa4F", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400; 
+    margin-left: 10%;
+}
+.dct{
+    font-size: 20px;
+    line-height: 1.25;
+    font-family: "Squartiqa4F", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400; 
+    margin-left: 10%;
+}
+.dc span ,.dct span{
+    font-family: "Squartiqa4F", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400; 
+    -webkit-text-fill-color: rgba(0, 0, 0, 0);
+    background: linear-gradient(76.26deg, rgb(161, 95, 203) 11.58%, rgb(127, 105, 231) 37.95%, rgb(106, 115, 244) 48%, rgb(99, 120, 247) 59.3%, rgb(89, 138, 243) 70.6%, rgb(98, 167, 222) 84.41%, rgb(118, 192, 195) 103.25%) text;
+}
+.nem{
+    display: flex;
+    flex-direction: column;
+    clip-path: polygon(0px 16px, 16px 0px, calc(100% - 16px) 0px, 100% 16px, 100% calc(100% - 16px), calc(100% - 16px) 100%, 16px 100%, 0px calc(100% - 16px));
+    margin-top: 32px;
+    gap: 8px; 
+   color: rgb(70, 57, 134) ;
+ margin-left: 10%;
+ width: 90%;
+}
+
+.kj{
+    background: linear-gradient(76.26deg, rgba(161, 95, 203, 0.15) 11.58%, rgba(127, 105, 231, 0.15) 37.95%, rgba(106, 115, 244, 0.15) 48%, rgba(99, 120, 247, 0.15) 59.3%, rgba(89, 138, 243, 0.15) 70.6%, rgba(98, 167, 222, 0.15) 84.41%, rgba(118, 192, 195, 0.15) 103.25%);
+    padding: 32px; 
+   
+}
+.vf{
+    position: relative;
+    margin-bottom: 16px;
+    font-family: "Squartiqa4F", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 25px;
+}
+.fc{
+
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.6;
+    letter-spacing: 0.01125rem;
+}
+
+.xc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 64px;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-image-slice: 1;
+    border-width: 2px;
+    border-image-source: linear-gradient(76.26deg, #A15FCB 11.58%, #7F69E7 37.95%, #6A73F4 48%, #6378F7 59.3%, #598AF3 70.6%, #62A7DE 84.41%, #76C0C3 103.25%);
+    padding: 48px 0;
+    margin: 0 48px;
+}
+.grt{
+    display: flex;
+    justify-content: center;
+    width: -moz-fit-content;
+    width: fit-content;
+    background: linear-gradient(76.26deg, rgba(161, 95, 203, 0.1) 11.58%, rgba(127, 105, 231, 0.1) 37.95%, rgba(106, 115, 244, 0.1) 48%, rgba(99, 120, 247, 0.1) 59.3%, rgba(89, 138, 243, 0.1) 70.6%, rgba(98, 167, 222, 0.1) 84.41%, rgba(118, 192, 195, 0.1) 103.25%);
+    margin: 0 auto;
+    -webkit-clip-path: polygon(0 16px, 16px 0, calc(100% - 16px) 0, 100% 16px, 100% calc(100% - 16px), calc(100% - 16px) 100%, 16px 100%, 0 calc(100% - 16px));
+    clip-path: polygon(0 16px, 16px 0, calc(100% - 16px) 0, 100% 16px, 100% calc(100% - 16px), calc(100% - 16px) 100%, 16px 100%, 0 calc(100% - 16px));
+}
+.bc{
+    color:white;
+}
+
+
+.fc{
+  color:  rgb(70, 57, 134); 
+}
+
+.kpk{
+    display:flex;
+    clip-path: polygon(0 16px, 16px 0, calc(100% - 16px) 0, 100% 16px, 100% calc(100% - 16px), calc(100% - 16px) 100%, 16px 100%, 0 calc(100% - 16px));
+margin-left: 3% ;
+margin-right: 3%;
+margin-top: 5%;
+    padding-right: 5%;
+    padding-top: 60px;
+  background-color: white;
+justify-content: space-between;
+  padding-left: 7%;
+}
+
+.vb{ margin-left: 10%;
+    width: 80%;
+    margin-top: 10px;
+}
+.lx{
+    width: 100%;
+    
+}
+.z img{
+    transform: rotate(360deg);
+}
+.tx{
+    background-image: url("/images/adam.png");
+    width: 150%;
+    background-size: 100% 100%;
+ background-repeat:no-repeat ;
+ 
+}
+.z{
+width:80%;  
+    aspect-ratio: 1;
+    border: 1px solid rgba(38, 6, 79, .12);
+    border-radius: 50%; 
+    border-right: 1px solid red;
+    animation: fv 3s linear  infinite ;
+    border-left:1px solid rgb(42, 151, 42) ;
+    margin-left: 9%;
+}
+
+@keyframes fv {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        border-left: 1px solid rgb(70, 57, 134) ;  
+        border-right: 1px solid rgb(25, 151, 124) ;
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.fn {
+display: flex;
+margin-top: 5%;
+margin-left: 9%;
+}
+.fn img{
+    width: 15%;
+    margin-left: 2%;
+}
+
+
+  @-webkit-keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-250px * 7));
+    }
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-250px * 7));
+    }
+  }
+  .slider {
+    background-image: linear-gradient(76.26deg, rgba(161, 95, 203, 0.1) 11.58%, rgba(127, 105, 231, 0.1) 37.95%, rgba(106, 115, 244, 0.1) 48%, rgba(99, 120, 247, 0.1) 59.3%, rgba(89, 138, 243, 0.1) 70.6%, rgba(98, 167, 222, 0.1) 84.41%, rgba(118, 192, 195, 0.1) 103.25%);
+
+   
+    height: 100px;
+    
+    overflow: hidden;
+margin-top: 30px;
+   
+  }
+ 
+  .slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+  }
+  .slider::before {
+    left: 0;
+    top: 0;
+  }
+  .slider .slide-track {
+    -webkit-animation: scroll 40s linear infinite;
+            animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+  }
+  .slider .slide {
+    height: 100px;
+    width: 250px;
+  }

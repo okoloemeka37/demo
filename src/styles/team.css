@@ -1,0 +1,61 @@
+.v {
+    font-family: "Squartiqa4F", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.25;
+    color:rgb(55, 23, 73);
+    text-align: center;
+}
+.team{
+   background-color: white;  
+   margin-top: 5%;
+   padding-top: 20px;
+}
+.dlid{
+    display: flex;
+   margin-top: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.ind{
+    margin-left: 20px;
+    background: linear-gradient(76.26deg, rgba(161, 95, 203, 0.1) 11.58%, rgba(127, 105, 231, 0.1) 37.95%, rgba(106, 115, 244, 0.1) 48%, rgba(99, 120, 247, 0.1) 59.3%, rgba(89, 138, 243, 0.1) 70.6%, rgba(98, 167, 222, 0.1) 84.41%, rgba(118, 192, 195, 0.1) 103.25%);
+text-align: center;   
+ clip-path: polygon(0 16px, 16px 0, calc(100% - 16px) 0, 100% 16px, 100% calc(100% - 16px), calc(100% - 16px) 100%, 16px 100%, 0 calc(100% - 16px));
+
+
+}
+
+.ind img{
+width: 80%;
+
+}
+.fav{
+    font-family: "Squartiqa4F", sans-serif; 
+      font-weight: 400;
+}
+.des{
+    font-weight:700 ;
+    letter-spacing: 1.5px;
+    -webkit-text-fill-color: rgba(0, 0, 0, 0);
+    background: linear-gradient(76.26deg, rgb(161, 95, 203) 11.58%, rgb(127, 105, 231) 37.95%, rgb(106, 115, 244) 48%, rgb(99, 120, 247) 59.3%, rgb(89, 138, 243) 70.6%, rgb(98, 167, 222) 84.41%, rgb(118, 192, 195) 103.25%) text;
+
+    margin-top: 5px;
+}
+.name{
+   
+    text-transform: uppercase;
+   
+    font-size: 18px;
+    line-height: 1.25;
+    color:rgb(55, 23, 73);
+    text-align: center;
+}
+
+.fv{
+    text-align: center;
+    width: 13%;
+    margin-left: 43%;
+    margin-top: 30px;
+}

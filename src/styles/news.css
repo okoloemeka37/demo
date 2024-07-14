@@ -1,0 +1,112 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+
+@font-face {
+  font-family: 'Squartiqa4F';
+ 
+  src: url('font/Squartiqa4F.woff2') format('woff2'),
+       url('font/Squartiqa4F.woff') format('woff'),
+       url('font/Squartiqa4F.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.news{
+    display:flex;
+    background: linear-gradient(90deg, #4FEDB9 0%, #4FEDD1 100%);
+  
+    position:  fixed;
+    width: 100%;
+justify-content: space-between;
+  }
+
+
+  .ticker-wrap {
+    padding: 9px;
+    position: fixed;
+    content: "";
+    top: 0px;
+    left: 0px;
+    width: 100%;
+  overflow-x: hidden;
+    background: linear-gradient(90deg, rgb(79, 237, 185) 0%, rgb(79, 237, 209) 100%);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    z-index: 999;
+  }
+  .ticker-wrap .ticker {
+    display: inline-block;
+    white-space: nowrap;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-name: ticker;
+    animation-name: ticker;
+    -webkit-animation-duration: 19s;
+    animation-duration: 19s;
+  }
+
+  @keyframes ticker {
+    0% {
+    
+      transform: translateX(0%);
+      
+    }
+    100% {
+      
+      transform: translateX(-100%);
+    }
+ }
+
+  .ticker-wrap .ticker__item {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.6;
+    letter-spacing: 0.02rem;
+    padding-left: 10px;
+    margin-top: 10px;
+  }
+  
+
+  /*navbar design*/
+
+  .flex-nav{
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    max-width: 1636px;
+  
+    padding: 0px 24px;
+    z-index: 99;
+   margin-top: 5%;
+
+justify-content: space-between;
+    clip-path: polygon(0px 12px, 12px 0px, calc(100% - 12px) 0px, 100% 12px, 100% calc(100% - 12px), calc(100% - 12px) 100%, 12px 100%, 0px calc(100% - 12px));
+   
+    background: linear-gradient(76.26deg, rgba(161, 95, 203, 0.1) 11.58%, rgba(127, 105, 231, 0.1) 37.95%, rgba(106, 115, 244, 0.1) 48%, rgba(99, 120, 247, 0.1) 59.3%, rgba(89, 138, 243, 0.1) 70.6%, rgba(98, 167, 222, 0.1) 84.41%, rgba(118, 192, 195, 0.1) 103.25%);
+  }
+
+.nav{
+  display: flex;
+ 
+  justify-content: center;
+  align-items: center;
+}
+.nav p{
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.285;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(38, 6, 79, 0.75);
+  text-decoration: none;
+  padding: 8px 10px;
+  margin: 0px 14px;
+  transition: color 300ms ease 0s;
+  cursor:pointer;
+}

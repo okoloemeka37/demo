@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Squartiqa 4F", sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+
+}
+
+
+@font-face {
+    font-family: 'Squartiqa4F';
+   
+    src: url('font/Squartiqa4F.woff2') format('woff2'),
+         url('font/Squartiqa4F.woff') format('woff'),
+         url('font/Squartiqa4F.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+    background: linear-gradient(76.26deg, rgba(161, 95, 203, 0.05) 11.58%, rgba(127, 105, 231, 0.05) 37.95%, rgba(106, 115, 244, 0.05) 48%, rgba(99, 120, 247, 0.05) 59.3%, rgba(89, 138, 243, 0.05) 70.6%, rgba(98, 167, 222, 0.05) 84.41%, rgba(118, 192, 195, 0.05) 103.25%);
+    overflow-x: hidden;
+
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.ed{
+    padding: 10px;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 999;
+    right: 3%;
+    top: 31%; 
+}
+
+
+.it{
+    transition: all .5s linear; transform: translateY(-100px);
+}
+.rit{
+    transition: all .5s linear; transform: translateY(0px);
+}
+.mi{
+    padding: 10px;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 999;
+    right: 3%;
+    top: 31%;   
+}
+.fd{
+    padding: 10px;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 99;
+    right: 3%;
+    top: 31%;     
+}
+
+.id{
+    transition: all .5s linear; transform: translateY(100px);
+}
+
+.im{ 
+    box-shadow: #0127ff 0px 3px 35px;
+    padding: 30px ;
+font-size: 30px;
+background-color: #6379f7;
+border-radius: 50%;
+}
+.no{
+    display:none;
+}
+
