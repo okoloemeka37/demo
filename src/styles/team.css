@@ -1,61 +1,69 @@
-.v {
-    font-family: "Squartiqa4F", sans-serif;
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 1.25;
-    color:rgb(55, 23, 73);
+.our-team{
+    border: 1px solid #dedede62;
     text-align: center;
+    color: #268b86;
+    overflow: hidden;
+    transition: all 0.3s ease 0s;
+    padding: 10px;
+    border-radius: 10px;
 }
-.team{
-   background-color: white;  
-   margin-top: 5%;
-   padding-top: 20px;
+.our-team:hover{
+    background: #0f69cf5e;
+    color: #fff;
 }
-.dlid{
+.our-team .pic{ position: relative; }
+.our-team .pic img{
+    width: 100%;
+    height: auto;
+    transition: all 0.3s ease 0s;
+}
+.our-team:hover .pic img{ transform: translateY(-20px); }
+.our-team .social{
+    width: 20%;
+    height: 100%;
+    background: #0f68cf;
+    padding: 20px 0;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+    left: -50%;
+    transition: all 0.5s ease 0s;
+}
+.our-team:hover .social{ left: 0; }
+.our-team .social li{ display: block; }
+.our-team .social li a{
+    display: block;
+    padding: 10px 0;
+    font-size: 20px;
+    color: #fff;
+    transition: all 0.5s ease 0s;
+}
+.our-team .social li a:hover{ color: #074c68; }
+.our-team .team-content{ padding: 25px 0; }
+.our-team .title{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+}
+.our-team .post{
+    display: block;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+@media only screen and (max-width: 990px){
+    .our-team{ margin-bottom: 30px; }
+}
+.er{
     display: flex;
-   margin-top: 4%;
-    margin-left: 5%;
     margin-right: 5%;
-}
-.ind{
-    margin-left: 20px;
-    background: linear-gradient(76.26deg, rgba(161, 95, 203, 0.1) 11.58%, rgba(127, 105, 231, 0.1) 37.95%, rgba(106, 115, 244, 0.1) 48%, rgba(99, 120, 247, 0.1) 59.3%, rgba(89, 138, 243, 0.1) 70.6%, rgba(98, 167, 222, 0.1) 84.41%, rgba(118, 192, 195, 0.1) 103.25%);
-text-align: center;   
- clip-path: polygon(0 16px, 16px 0, calc(100% - 16px) 0, 100% 16px, 100% calc(100% - 16px), calc(100% - 16px) 100%, 16px 100%, 0 calc(100% - 16px));
-
-
+    margin-left: 5%;
+    margin-top: 10px;
 }
 
-.ind img{
-width: 80%;
-
-}
-.fav{
-    font-family: "Squartiqa4F", sans-serif; 
-      font-weight: 400;
-}
-.des{
-    font-weight:700 ;
-    letter-spacing: 1.5px;
-    -webkit-text-fill-color: rgba(0, 0, 0, 0);
-    background: linear-gradient(76.26deg, rgb(161, 95, 203) 11.58%, rgb(127, 105, 231) 37.95%, rgb(106, 115, 244) 48%, rgb(99, 120, 247) 59.3%, rgb(89, 138, 243) 70.6%, rgb(98, 167, 222) 84.41%, rgb(118, 192, 195) 103.25%) text;
-
-    margin-top: 5px;
-}
-.name{
+.op{
+    margin-right:10px;
    
-    text-transform: uppercase;
-   
-    font-size: 18px;
-    line-height: 1.25;
-    color:rgb(55, 23, 73);
-    text-align: center;
-}
-
-.fv{
-    text-align: center;
-    width: 13%;
-    margin-left: 43%;
-    margin-top: 30px;
 }

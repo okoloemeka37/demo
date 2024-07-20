@@ -7,18 +7,23 @@ import Button from './Button';
 export default function Navbar() {
  
   return (
-    <div className='flex-nav'>
-        <p className='logo'>     <img src={image}  alt="" /></p>
+    <div className='flexNav'>
+                   <p className='logo'><img src="/images/icons/we.png"  alt="" /></p>
+
         <div className="nav">
-            <p className="ab">About <i className="fa-solid fa-caret-down"></i></p>
-            <p className="tk">Token <i className="fa-solid fa-caret-down"></i></p>
-            <p className="nft">NFT <i className="fa-solid fa-caret-down"></i></p>
-            <p className="rm">Roadmap</p>
-            <p className="nw">News <i className="fa-solid fa-caret-down"></i></p>
-            <p className="ct">contacts</p>
+            <div className="gan">
+              <p className="ab r">Game <i class="fa-solid fa-angle-right"></i></p>
+              <div className="mr"><a href="">Invicible 11</a></div>
+            </div>
+            <p className="ab r">About </p>
+            <p className="tk r">Token </p>
+            <p className="nft r">NFT </p> 
+            <p className="rm r">Roadmap</p>
+            <p className="nw r">News </p>
+            <p className="ct r">contacts</p>
            
         </div>
-         <Button con={<a href="" className='gr' >Staking</a> }bg="bg-gold"  />
+       
     </div>
   )
 }

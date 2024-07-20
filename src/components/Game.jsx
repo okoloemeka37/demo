@@ -14,7 +14,7 @@ export default function () {
 
 
         <div className='ll'>
-          <img src="/images/game.png" alt="" />
+          <img src="/images/abt.webp" alt="" />
         </div>
 
         <div className="tb">
@@ -25,15 +25,19 @@ export default function () {
             <div className="nem">
               <div className="kj">
                 <p className="vf">AUGMENTED REALITY</p>
-                <p className="fc"> Advanced AR combat mode for the best gaming experience!</p>
+                <p className="fc">Aruku R&B Limited is a pioneering game development company,
+committed to pushing the boundaries of traditional gaming with blockchain
+integration, AI-powered gameplay, and NFTs.</p>
               </div>
               <div className="kj">
                 <p className="vf">AUGMENTED REALITY</p>
-                <p className="fc"> Advanced AR combat mode for the best gaming experience!</p>
+                <p className="fc">Founded in [Year], Aruku R&B has been at the forefront of gaming
+innovation, continuously striving to create games that are not only entertaining but
+also offer real-world value.</p>
               </div>
               <div className="kj">
                 <p className="vf">AUGMENTED REALITY</p>
-                <p className="fc"> Advanced AR combat mode for the best gaming experience!</p>
+                <p className="fc">Innovation, Excellence, Community, Integrity.</p>
               </div>
             </div>
         </div>

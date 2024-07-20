@@ -74,39 +74,78 @@ justify-content: space-between;
 
   /*navbar design*/
 
-  .flex-nav{
-    margin-right: 20px;
-    margin-left: 20px;
-    display: flex;
-    align-items: center;
-    max-width: 1636px;
-  
-    padding: 0px 24px;
-    z-index: 99;
-   margin-top: 5%;
-
+.flexNav{
+  width: 100%;
+  top: 0%;
+  z-index:9999;
+  background-color:#20294b ; 
+ box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  display: flex;
 justify-content: space-between;
-    clip-path: polygon(0px 12px, 12px 0px, calc(100% - 12px) 0px, 100% 12px, 100% calc(100% - 12px), calc(100% - 12px) 100%, 12px 100%, 0px calc(100% - 12px));
-   
-    background: linear-gradient(76.26deg, rgba(161, 95, 203, 0.1) 11.58%, rgba(127, 105, 231, 0.1) 37.95%, rgba(106, 115, 244, 0.1) 48%, rgba(99, 120, 247, 0.1) 59.3%, rgba(89, 138, 243, 0.1) 70.6%, rgba(98, 167, 222, 0.1) 84.41%, rgba(118, 192, 195, 0.1) 103.25%);
-  }
+position: fixed;
+padding-top: 10px;
+padding-left: 3%;
+}
 
 .nav{
   display: flex;
- 
-  justify-content: center;
+
   align-items: center;
+ justify-content: space-between;
+
+margin-right: 5%;
+  
 }
-.nav p{
+.nav .r{
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 300;
   line-height: 1.285;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: rgba(38, 6, 79, 0.75);
   text-decoration: none;
-  padding: 8px 10px;
+
   margin: 0px 14px;
-  transition: color 300ms ease 0s;
+  transition: all 5ms linear 0s;
   cursor:pointer;
+
+}
+.r{
+  color: rgb(226, 226, 226);
+}
+
+.r:hover{
+  color: white;
+
+}
+
+.logo{
+  width: 30%;
+  text-align: left;
+}
+.logo img{
+  width: 40%;
+  transition: all .5s linear;
+}
+.logo img:hover{
+  transform: scale(1.2);
+}
+.gan{
+  display: flex;
+  flex-direction: column;
+
+}
+.gan:hover .mr{
+  display: block;
+   
+}
+
+.mr{
+  background-color: black;
+  padding: 10px 15px;
+  width:fit-content;
+  color: white;
+  display: none;
+  position: relative;
+top: 30%;
+
 }
