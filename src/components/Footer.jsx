@@ -17,32 +17,12 @@ integration, AI-powered gameplay, and NFTs.
           </p>
         </div>
         <div className="col-xs-6 col-md-3">
-          <h6>Categories</h6>
+          <h6>GAMES</h6>
           <ul className="footer-links">
             <li>
-              <a href="http://scanfcode.com/category/c-language/">C</a>
+              <a href="http://scanfcode.com/category/c-language/">Invicible 11</a>
             </li>
-            <li>
-              <a href="http://scanfcode.com/category/front-end-development/">
-                UI Design
-              </a>
-            </li>
-            <li>
-              <a href="http://scanfcode.com/category/back-end-development/">
-                PHP
-              </a>
-            </li>
-            <li>
-              <a href="http://scanfcode.com/category/java-programming-language/">
-                Java
-              </a>
-            </li>
-            <li>
-              <a href="http://scanfcode.com/category/android/">Android</a>
-            </li>
-            <li>
-              <a href="http://scanfcode.com/category/templates/">Templates</a>
-            </li>
+          
           </ul>
         </div>
         <div className="col-xs-6 col-md-3">
@@ -74,8 +54,8 @@ integration, AI-powered gameplay, and NFTs.
       <div className="row">
         <div className="col-md-8 col-sm-6 col-xs-12">
           <p className="copyright-text">
-            Copyright © 2017 All Rights Reserved by
-            <a href="#">Scanfcode</a>.
+            Copyright © 2024 All Rights Reserved by
+            <a href="#"> ARUKU R&B</a>.
           </p>
         </div>
         <div className="col-md-4 col-sm-6 col-xs-12">

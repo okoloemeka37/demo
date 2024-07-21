@@ -42,7 +42,7 @@ export default function Contact() {
         required=""
         defaultValue={""}
       />
-      <button class="button-9" role="button">Button 9</button>
+      <button class="button-9" role="button">SUBMIT</button>
     </form>
     {/* Left contact page */}
     <div className="direct-contact-container">
@@ -94,8 +94,7 @@ export default function Contact() {
           </a>
         </li>
       </ul>
-      <hr />
-      <div className="copyright">© ALL OF THE RIGHTS RESERVED</div>
+      
     </div>
   </div>
 </section>

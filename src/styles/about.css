@@ -1,9 +1,57 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
 @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic);
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+
 * {
     font-family: Nunito, sans-serif;
   }
+
+
+.center {
+  width: 180px;
+  height: 60px;
+  position: absolute;
+}
+
+.btn {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #91C9FF;
+  outline: none;
+  transition: 1s ease-in-out;
+
+}
+
+.svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.btn:hover {
+  transition: 1s ease-in-out;
+  background: #4F95DA;
+}
+
+.btn:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.btn span {
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+}
+
   
+
   .text-blk {
     margin-top: 0px;
     margin-right: 0px;
@@ -117,9 +165,8 @@
   .cardImgContainer {
    
    padding: 4px;
-border: 1px solid rgb(229, 229, 229);
+border: 1px solid #4F95DA;
    width: 20%;
-
    border-radius:10px ;
     margin: 0px 10px 0px 0px;
   }
@@ -385,13 +432,8 @@ border: 1px solid rgb(229, 229, 229);
       position: relative;
     }
   
-    .explore {
-      padding-top: 17px;
-      padding-right: 0px;
-      padding-bottom: 17px;
-      padding-left: 0px;
-      width: 100%;
-    }
+  
+
   
     #ixvck {
       width: 90%;
@@ -508,70 +550,71 @@ margin-left: 8%;
 margin-right: 5%;
   }
 
+.blogContainer{
+  display: flex;
+  margin-right: 10%;
+}
 
-  .card-container {
-    width: 100%;
-   
-    display: flex;
-    flex-flow: row wrap;
-    margin-left: 5%;
- 
-    transition: all 200ms ease-in-out;
-    margin-top: 30px;
-  }
-  
-  .card {
-    align-self: flex-start;
+  .card{
+    width: 25rem;
+    height: auto;
+    background: #0000001f;
+    border-radius: 5px;
+    padding: 15px;
+    overflow: hidden;
     position: relative;
-    width: 225px;
-  margin-right: 10px;
-    background: white;
-    transition: all 300ms ease-in-out;
-  }
-  .cg {
-   
-    width: 100%;
+    margin-right: 6%;
+    transition: all .5s linear;
     
-  
   }
- 
-  .card .card-info {
+  .card:hover{
+    transform: scale(1.05);
+  }
+  .card-img-holder{
+    width: 100%;
+    height: auto;
     position: relative;
-    padding: 0.75rem 1.25rem;
-    transition: all 200ms ease-in-out;
   }
-  .card .card-info .card-about {
+  
+  .card-img-holder img{
+    width: 100%;
+    height: auto;
+    max-height: 15rem;
+    object-fit: cover;
+    border-radius: 1.5rem;
+  }
+  
+  .blog-title{
+    color: #cccccc;
+    padding: 1rem 0;
+    font-size: 1.5rem;
+  }
+  
+  .description{
+    padding: 1rem 0;
+    color: #68686880;
+    font-size: 1rem;
+  }
+  
+  .blog-time{
+    font-size: .8rem;
+    color: #22215B;
+  }
+  
+  .options{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 0.75rem 0;
-    transition: all 200ms ease-in-out;
+    justify-content: space-between;
+    font-size: 1rem;
   }
-  .card .card-info .card-about{
-    width: 60px;
-    max-width: 100px;
-    padding: 0.2rem 0.5rem;
-    font-size: 12px;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    background: #505f79;
-    color: #fff;
+  
+  .options span{
+    font-weight: 600;
+    color: #22215B;
   }
+  
  
 
-  .card .card-info .card-title {
-    z-index: 10;
-    font-size: 15px;
-    padding-bottom: 0.75rem;
-    transition: all 350ms ease-in-out;
-  }
-  .card .card-info .card-creator {
-    padding-bottom: 0.75rem;
-    display: flex;
-    justify-content: space-between;
-  }
- 
 
 .fwc{
   margin-top: 5%;
@@ -610,4 +653,15 @@ margin-right: 5%;
   margin-bottom: 8%;
     line-height: 1.5;
     color: #a7a7a7;
+}
+.row-text-content:hover .sh{
+  background-image: linear-gradient(90deg,rgba(0, 0, 0, 0.425),rgba(10, 10, 10, 0.158),rgba(7, 7, 7, 0.11),rgba(179, 179, 179, 0.034));
+  width: fit-content;
+  height: fit-content;
+  
+
+}
+.sh{
+  padding: 20px;
+ 
 }

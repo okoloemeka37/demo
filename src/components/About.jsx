@@ -20,7 +20,7 @@ integration, AI-powered gameplay, and NFTs.
 </p>
         <div className="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
           <div className="cardImgContainer">
-           <img src="/images/icons/in.png" className='cardImg' alt="" />
+           <img src="/images/icons/tr.png" className='cardImg' alt="" />
           </div>
           <div className="cardText">
             <p className="text-blk cardHeading">Innovation</p>
@@ -33,7 +33,7 @@ integration, AI-powered gameplay, and NFTs.
           <div className="cardImgContainer">
             <img
               className="cardImg"
-              src="/images/icons/ex.png"
+              src="/images/icons/exr.png"
             />
           </div>
           <div className="cardText">
@@ -47,7 +47,7 @@ integration, AI-powered gameplay, and NFTs.
           <div className="cardImgContainer">
             <img
               className="cardImg"
-              src="images/icons/cc.png"
+              src="images/icons/ccr.png"
             />
           </div>
           <div className="cardText">
@@ -61,7 +61,7 @@ integration, AI-powered gameplay, and NFTs.
           <div className="cardImgContainer">
             <img
               className="cardImg"
-              src="images/icons/n.png"
+              src="images/icons/nr.png"
             />
           </div>
           <div className="cardText">
@@ -72,7 +72,17 @@ integration, AI-powered gameplay, and NFTs.
           </div>
         </div>
         <a>
-          <button className="explore">LEARN MORE <i class="fa-solid fa-arrow-right"></i></button>
+        <div class="container">
+    <div class="center" style={{position:"unset"}}>
+      <button class="btn">
+        <svg width="180px" height="60px" viewBox="0 0 180 60" class="border svg">
+          <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+          <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+        </svg>
+        <span>JOIN US</span>
+      </button>
+    </div>
+  </div>
         </a>
       </div>
     

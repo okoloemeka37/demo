@@ -12,18 +12,22 @@ export default function Navbar() {
 
         <div className="nav">
             <div className="gan">
-              <p className="ab r">Game <i class="fa-solid fa-angle-right"></i></p>
+              <p className="ab r">Games <i class="fa-solid fa-angle-right"></i></p>
               <div className="mr"><a href="">Invicible 11</a></div>
             </div>
             <p className="ab r">About </p>
-            <p className="tk r">Token </p>
-            <p className="nft r">NFT </p> 
-            <p className="rm r">Roadmap</p>
-            <p className="nw r">News </p>
-            <p className="ct r">contacts</p>
+            <p className="tk r">CAREERS </p>
+            <p className="nft r">BLOG</p> 
+            <p className="rm r">CONTACT</p>
+           
            
         </div>
        
+
+
+       
     </div>
+
+    
   )
 }

@@ -5,75 +5,59 @@ export default function Blog() {
     <div className="tg">
     <div className='fwc'>
            <div className="rf">BlogPost</div>
-<div className="card-container">
 
-
-<div className="card card-1"> 
-    <img src="/images/car.jpg" className='cg' alt="" />
-  <div className="card-img" />
- 
- 
-  <div className="card-info">
-  
-    <h1 className="card-title">
-      There have been big Tesla accident at New Jersey
-    </h1>
-    <div className="card-creator">
-       <a href="">by Sardorbek Usmonov</a>
-       <div className="card-time">6/11/2018</div>
-    </div>
+    <div className="blogContainer">
+    <div class="card">
+  <div className="card-img-holder">
+    <img src="https://images.unsplash.com/photo-1640102953836-5651f5d6b240?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1024&q=80" alt="Blog image" />
   </div>
-</div>
-<div className="card card-1"> 
-    <img src="/images/car.jpg" className='cg' alt="" />
-  <div className="card-img" />
- 
- 
-  <div className="card-info">
-  
-    <h1 className="card-title">
-      There have been big Tesla accident at New Jersey
-    </h1>
-    <div className="card-creator">
-       <a href="">by Sardorbek Usmonov</a>
-       <div className="card-time">6/11/2018</div>
-    </div>
-  </div>
-</div>
-<div className="card card-1"> 
-    <img src="/images/car.jpg" className='cg' alt="" />
-  <div className="card-img" />
- 
- 
-  <div className="card-info">
-  
-    <h1 className="card-title">
-      There have been big Tesla accident at New Jersey
-    </h1>
-    <div className="card-creator">
-       <a href="">by Sardorbek Usmonov</a>
-       <div className="card-time">6/11/2018</div>
-    </div>
-  </div>
-</div>
-<div className="card card-1"> 
-    <img src="/images/car.jpg" className='cg' alt="" />
-  <div className="card-img" />
- 
- 
-  <div className="card-info">
-  
-    <h1 className="card-title">
-      There have been big Tesla accident at New Jersey
-    </h1>
-    <div className="card-creator">
-       <a href="">by Sardorbek Usmonov</a>
-       <div className="card-time">6/11/2018</div>
-    </div>
+  <h3 className="blog-title">Learn Microinteraction</h3>
+  <span className="blog-time">Monday Jan 20, 2020</span>
+  <p className="description">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sagittis viverra turpis, non cursus ex accumsan at.
+  </p>
+  <div className="options">
+    <span>
+      Read Full Blog
+    </span>
+   
   </div>
 </div>
 
+<div class="card">
+  <div className="card-img-holder">
+    <img src="https://images.unsplash.com/photo-1640102953836-5651f5d6b240?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1024&q=80" alt="Blog image" />
+  </div>
+  <h3 className="blog-title">Learn Microinteraction</h3>
+  <span className="blog-time">Monday Jan 20, 2020</span>
+  <p className="description">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sagittis viverra turpis, non cursus ex accumsan at.
+  </p>
+  <div className="options">
+    <span>
+      Read Full Blog
+    </span>
+ 
+  </div>
 </div>
+<div class="card">
+  <div className="card-img-holder">
+    <img src="https://images.unsplash.com/photo-1640102953836-5651f5d6b240?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1024&q=80" alt="Blog image" />
+  </div>
+  <h3 className="blog-title">Learn Microinteraction</h3>
+  <span className="blog-time">Monday Jan 20, 2020</span>
+  <p className="description">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sagittis viverra turpis, non cursus ex accumsan at.
+  </p>
+  <div className="options">
+    <span>
+      Read Full Blog
+    </span>
+    
+  </div>
+</div>
+    </div>
+
 </div>
 
 
@@ -88,7 +72,17 @@ export default function Blog() {
         <p className='nxt'>Explore our current job openings and apply today.</p>
      
         <a>
-          <button className="explore">LEARN MORE <i class="fa-solid fa-arrow-right"></i></button>
+        <div class="container">
+    <div class="center">
+      <button class="btn">
+        <svg width="180px" height="60px" viewBox="0 0 180 60" class="border svg">
+          <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+          <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+        </svg>
+        <span>JOIN US</span>
+      </button>
+    </div>
+  </div>
         </a>
       </div>
       <div className="imgContainer">
